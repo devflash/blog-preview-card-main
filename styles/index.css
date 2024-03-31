@@ -1,0 +1,62 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1c40f;
+  font-size: 1rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1.25rem;
+  background-color: #fff;
+  max-width: 25rem;
+  width: 100%;
+  box-shadow: 0.8rem 0.8rem;
+}
+.card img {
+  width: 100%;
+}
+.card_tags {
+  display: flex;
+}
+.card_tags .tag {
+  background-color: #f1c40f;
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+.card_description {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card_description h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.card_avatar {
+  display: flex;
+  align-items: center;
+  margin-top: 0.85rem;
+  margin-bottom: 0.85rem;
+}
+.card_avatar img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+.card_avatar span {
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=index.css.map */
